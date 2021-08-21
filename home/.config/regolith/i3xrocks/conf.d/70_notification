@@ -1,4 +1,4 @@
 [teste]
-command=~/.config/regolith/i3xrocks/conf.d/notify.sh
+command=~/.config/regolith/notify.sh
 interval=4
 markup=pango
