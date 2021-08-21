@@ -66,6 +66,7 @@ Then downlaod =dunst= from ubuntu 21.04 repository.  The version on 20.04 is old
 | Lock                                | Super + esc         |
 | Restart                             | Super + Shift + Esc |
 | Application Menu / Find Application | Super + Space       |
+| Close Window                        | Super + c           |
 
 ** Applications
 | Description  | key                   |
