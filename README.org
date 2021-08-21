@@ -1,0 +1,94 @@
+#+TITLE: Readme
+
+* Index :TOC:
+- [[#about][About]]
+- [[#dependencies][Dependencies]]
+- [[#installation][Installation]]
+- [[#shorcuts][Shorcuts]]
+  - [[#navigation][Navigation]]
+  - [[#moving-windows][Moving Windows]]
+  - [[#tilling-position][Tilling Position]]
+  - [[#actions][Actions]]
+  - [[#applications][Applications]]
+- [[#documentation][Documentation]]
+  - [[#configuring][Configuring]]
+  - [[#regolith-download][Regolith Download]]
+  - [[#regolith-i3-docs][Regolith i3 docs]]
+
+* About
+ My personal configuration to use i3 with regolith linux.
+
+* Dependencies
+- dunst (>= 1.5)
+- regolith linux
+
+* Installation
+
+Install required pacakges:
+
+#+begin_shell
+# Remove
+sudo apt remove regolith-rofication
+sudo apt install regolith-look-dracula i3xrocks-volume
+#+end_shell
+
+Then downlaod =dunst= from ubuntu 21.04 repository.  The version on 20.04 is old and lack of features.
+
+* Shorcuts
+** Navigation
+| Description         | Key               |
+| Focus Next Window   | Super + hjkl      |
+| Focus Other Monitor | Super + tab       |
+| Find Window         | Alt + tab         |
+| Focus workspace 1-4 | Super + 1234      |
+| Focus workspace 5-7 | Super + qwe       |
+| Focus workspace 8-9 | Super + sd        |
+| Focus parent window | Super + shift + a |
+
+** Moving Windows
+| Description  | Key                  |
+| Move windows | Super + shift + hjkl |
+| Move window to workspace 1-4 | Super + 1234 |
+| Move window to workspace 5-7 | Super + qwe  |
+| Move window to workspace 8-9 | Super + sd   |
+
+** Tilling Position
+| Description             | Key                                            |
+| Change tiling direction | Super + backspace                              |
+| Resize                  | Super + r then Super +hjkl.  Super + r to quit |
+| Maximize                | Super + f                                      |
+| Remove from tiling      | Super + Shift + f                              |
+
+** Actions
+| Description                         | Key                 |
+| Disable notifications               | Super + n           |
+| Change output device                | Super + u           |
+| Lock                                | Super + esc         |
+| Restart                             | Super + Shift + Esc |
+| Application Menu / Find Application | Super + Space       |
+
+** Applications
+| Description  | key                   |
+| File Manager | Super + z             |
+| Editor       | Super + p             |
+| Browser      | Super + Shift + Enter |
+| Terminal     | Super + Enter         |
+
+* Documentation
+** Configuring
+*** Workspace <> Monitors
+First, change the workspace monitors on regolith/i3/config (line 486 to 494).  Change last parameter to your monitor.  To find monitor use xrandr --listmonitors
+
+*** Windows <> Workspaces
+Go to Window Configurations (497+) and follow your heart.  To find window class, open a terminal and run xprop | grep WM_CLASS
+
+*** Startup Programs
+Go to 518 and follow your heart.
+
+*** To change startup programs, go to
+
+** Regolith Download
+https://regolith-linux.org/download/
+
+** Regolith i3 docs
+https://regolith-linux.org/docs/
