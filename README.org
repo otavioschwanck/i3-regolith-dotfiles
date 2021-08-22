@@ -18,7 +18,7 @@
 * About
  My personal configuration to use i3 with regolith linux.
 
-[[file:print.png][Print Screen]]
+[[img:print.png][Print]]
 
 * Dependencies
 - dunst (>= 1.5)
