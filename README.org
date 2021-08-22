@@ -26,12 +26,15 @@
 
 * Installation
 
-Install required pacakges:
+Install required packages:
 
 #+begin_shell
-# Remove
+# Remove regolith notification
 sudo apt remove regolith-rofication
+# Install some godies
 sudo apt install regolith-look-dracula i3xrocks-volume
+# Go Full Dracula!
+regolith-look set dracula
 #+end_shell
 
 Then downlaod =dunst= from ubuntu 21.04 repository.  The version on 20.04 is old and lack of features.
