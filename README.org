@@ -76,11 +76,13 @@ Then downlaod =dunst= from ubuntu 21.04 repository.  The version on 20.04 is old
 | Close Window                        | Super + c           |
 
 ** Applications
-| Description  | key                   |
-| File Manager | Super + z             |
-| Editor       | Super + p             |
-| Browser      | Super + Shift + Enter |
-| Terminal     | Super + Enter         |
+| Description    | key                   |
+| File Manager   | Super + z             |
+| Editor         | Super + p             |
+| Browser        | Super + Shift + Enter |
+| Terminal       | Super + Enter         |
+| Gnome Settings | Super + v             |
+| Sound Settings | Super + m             |
 
 * Documentation
 ** Configuring
