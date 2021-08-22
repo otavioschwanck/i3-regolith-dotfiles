@@ -51,11 +51,12 @@ Then downlaod =dunst= from ubuntu 21.04 repository.  The version on 20.04 is old
 | Focus parent window | Super + shift + a |
 
 ** Moving Windows
-| Description  | Key                  |
-| Move windows | Super + shift + hjkl |
-| Move window to workspace 1-4 | Super + 1234 |
-| Move window to workspace 5-7 | Super + qwe  |
-| Move window to workspace 8-9 | Super + sd   |
+| Description                  | Key                  |
+| Move windows                 | Super + shift + hjkl |
+| Move window to workspace 1-4 | Super + 1234         |
+| Move window to workspace 5-7 | Super + qwe          |
+| Move window to workspace 8-9 | Super + sd           |
+| Toggle tiling position       | Super + a            |
 
 ** Tilling Position
 | Description             | Key                                            |
@@ -68,6 +69,7 @@ Then downlaod =dunst= from ubuntu 21.04 repository.  The version on 20.04 is old
 | Description                         | Key                 |
 | Disable notifications               | Super + n           |
 | Change output device                | Super + u           |
+| Change input device                 | Super + Shift + u   |
 | Lock                                | Super + esc         |
 | Restart                             | Super + Shift + Esc |
 | Application Menu / Find Application | Super + Space       |

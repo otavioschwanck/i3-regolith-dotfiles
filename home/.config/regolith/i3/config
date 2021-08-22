@@ -476,11 +476,14 @@ exec --no-startup-id $i3-wm.program.2
 set_from_resource $i3-wm.program.3 i3-wm.program.3 :
 exec --no-startup-id $i3-wm.program.3
 
+exec --no-startup-id dunst # Notifications <3
+
 # Personal Changes
 
 bindsym Ctrl+$alt+a exec flameshot gui
 bindsym $mod+n exec ~/.config/regolith/i3/notify_toggle.sh
 bindsym $mod+u exec ~/.config/regolith/i3/switch-output.sh
+bindsym $mod+Shift+u exec ~/.config/regolith/i3/switch-input.sh
 
 # Workspace nine to my second monitor.  (use xrandr --listmonitors to get)
 workspace "$ws1" output HDMI-1-1
@@ -509,11 +512,11 @@ for_window [class="Postman"] move to workspace $ws3
 for_window [class="vlc"] move to workspace $ws4
 for_window [class="Slack"] move to workspace $ws9
 
-# Some cool shortcuts
 mouse_warping output
-bindsym $mod+Tab focus output right
-bindsym $mod+Shift+c exec gnome-calculator
 
-# Startup Items
 exec --no-startup-id i3-msg 'exec emacs'
 exec --no-startup-id i3-msg 'exec slack'
+exec --no-startup-id i3-msg 'exec google-chrome-stable'
+
+bindsym $mod+Tab focus output right
+bindsym $mod+Shift+c exec gnome-calculator
