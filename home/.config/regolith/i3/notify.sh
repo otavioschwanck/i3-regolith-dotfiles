@@ -2,9 +2,9 @@
 
 case `dunstctl is-paused` in
     true)
-        echo "<span color='red'></span>"
+        echo "<span color='#c2c2c2'></span>"
         ;;
     false)
-        echo "<span color='green'></span>"
+        echo "<span></span>"
         ;;
 esac
