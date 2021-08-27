@@ -520,3 +520,6 @@ exec --no-startup-id i3-msg 'exec google-chrome-stable'
 
 bindsym $mod+Tab focus output right
 bindsym $mod+Shift+c exec gnome-calculator
+
+bindsym $mod+comma exec "pactl set-sink-volume $(pactl list short | grep RUNNING | sed -e 's,^\([0-9][0-9]*\)[^0-9].*,\1,') -15%"
+bindsym $mod+period exec "pactl set-sink-volume $(pactl list short | grep RUNNING | sed -e 's,^\([0-9][0-9]*\)[^0-9].*,\1,') +15%"
