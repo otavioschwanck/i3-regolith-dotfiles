@@ -35,6 +35,11 @@ sudo apt remove regolith-rofication
 sudo apt install regolith-look-dracula i3xrocks-volume
 # Go Full Dracula!
 regolith-look set dracula
+
+# HUD = <3
+sudo apt install --install-suggests mate-hud
+gsettings set org.mate.hud shortcut '<Ctrl><Alt>S'
+
 #+end_shell
 
 Then downlaod =dunst= from ubuntu 21.04 repository.  The version on 20.04 is old and lack of features.
@@ -74,6 +79,7 @@ Then downlaod =dunst= from ubuntu 21.04 repository.  The version on 20.04 is old
 | Restart                             | Super + Shift + Esc |
 | Application Menu / Find Application | Super + Space       |
 | Close Window                        | Super + c           |
+| HUD (search on menus)               | Ctrl + Alt + s      |
 
 ** Applications
 | Description    | key                   |
