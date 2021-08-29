@@ -36,9 +36,6 @@ sudo apt install regolith-look-dracula i3xrocks-volume
 # Go Full Dracula!
 regolith-look set dracula
 
-# HUD dependencies
-sudo apt install python python-gobject python-dbus unity-gtk2-module unity-gtk3-module
-pip install gnome-hud
 #+end_src
 
 
