@@ -523,5 +523,3 @@ bindsym $mod+Shift+c exec rofi -show calc -modi "calc:qalc +u8 -nocurrencies"
 
 bindsym $mod+comma exec "pactl set-sink-volume $(pactl list short | grep RUNNING | sed -e 's,^\([0-9][0-9]*\)[^0-9].*,\1,') -15%"
 bindsym $mod+period exec "pactl set-sink-volume $(pactl list short | grep RUNNING | sed -e 's,^\([0-9][0-9]*\)[^0-9].*,\1,') +15%"
-
-exec --no-startup-id ~/.config/regolith/i3/mate-hud.sh
