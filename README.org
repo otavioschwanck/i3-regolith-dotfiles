@@ -35,6 +35,10 @@ sudo apt remove regolith-rofication
 sudo apt install regolith-look-dracula i3xrocks-volume
 # Go Full Dracula!
 regolith-look set dracula
+
+# HUD dependencies
+sudo apt install python python-gobject python-dbus appmenu-gtk2-module appmenu-gtk3-module
+pip install gnome-hud
 #+end_src
 
 
