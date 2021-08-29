@@ -26,9 +26,9 @@
 
 * Installation
 
+#+begin_src shell
 Install required packages:
 
-#+begin_shell
 # Remove regolith notification
 sudo apt remove regolith-rofication
 # Install some godies
@@ -39,8 +39,8 @@ regolith-look set dracula
 # HUD = <3
 sudo apt install --install-suggests mate-hud
 gsettings set org.mate.hud shortcut '<Ctrl><Alt>S'
+#+end_src
 
-#+end_shell
 
 Then downlaod =dunst= from ubuntu 21.04 repository.  The version on 20.04 is old and lack of features.
 
