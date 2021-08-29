@@ -37,7 +37,7 @@ sudo apt install regolith-look-dracula i3xrocks-volume
 regolith-look set dracula
 
 # HUD = <3
-sudo apt install --install-suggests mate-hud
+sudo apt install --install-suggests mate-hud qalc
 gsettings set org.mate.hud shortcut '<Ctrl><Alt>S'
 #+end_src
 
