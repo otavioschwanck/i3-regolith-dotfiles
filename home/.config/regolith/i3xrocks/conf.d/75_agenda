@@ -1,0 +1,3 @@
+[i3-agenda]
+command=i3-agenda -c ~/.google-credentials.json -ttl 60 --no-event-text "Sem Eventos hoje!" -d
+interval=60
